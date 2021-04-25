@@ -20,5 +20,14 @@ func main(){
 			pincode: 50634,
 		},
 	}
-	fmt.Printf("%+v\n", jim)
+	(&jim).updateName("jimmy")
+	jim.print()
+}
+
+func (p person) print() {
+	fmt.Printf("%+v", p)
+}
+
+func (p *person) updateName(newname string){
+	(*p).firstName = newname;
 }
