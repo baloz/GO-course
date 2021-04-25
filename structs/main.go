@@ -13,4 +13,9 @@ func main(){
 
 	pavan = person{firstName: "pavan", lastName: "baloju"}
 	fmt.Println(pavan)
+
+	var alex person
+	alex.firstName = "Alex"
+	alex.lastName = "Anderson"
+	fmt.Printf("%+v", alex)
 }
