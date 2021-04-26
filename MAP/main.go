@@ -13,4 +13,6 @@ func main(){
 	cols["key1"] = "val1"
 	fmt.Println(cols)
 	
+	delete(cols, "key1")
+	fmt.Println(cols)
 }
