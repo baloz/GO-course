@@ -8,4 +8,9 @@ func main(){
 		"blue" : "#0000ff",
 	}
 	fmt.Println(colors)
+
+	cols := make(map[string] string)
+	cols["key1"] = "val1"
+	fmt.Println(cols)
+	
 }
