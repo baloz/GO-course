@@ -20,7 +20,7 @@ func main(){
 			pincode: 50634,
 		},
 	}
-	(&jim).updateName("jimmy")
+	jim.updateName("jimmy") // allowed instead of (&jim).updateName 
 	jim.print()
 }
 
